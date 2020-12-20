@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  nav {
+    background-color: teal;
+    font-size: 17px;
+  }
+  main {
+    padding: 20px 20px;
+  }
+  a , .btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 8px 10px;
+    background: teal;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .nom_repo
+  {
+    color: teal;
+    text-align: center;
+    font-size: 12px;
+  }
+  .nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    height: 60px;
+  }
+  .nav-main .nav-menu-left {
+    padding-left: 15px;
+    color: white;
+  }
+  
+  .nav-main .nav-menu-right {
+    margin-right: 40px;
+  }
+  
+  .txtBusqueda {
+    height: 30px;
+    width: 250px;
+  }
+  
+  .btn-search {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 8px 10px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+  }
+  .btn-search:hover {
+    background-color: grey;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+    text-align: center;
+    
+  }
+  
+  .n-cards {
+    text-align: center;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .n-cards2
+  {
+    text-align: left;
+    font-size: 13px;
+    border: 1px solid black;
+    padding: 20px;
+  
+  }
+  
+  
